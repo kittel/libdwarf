@@ -62,8 +62,7 @@ RANLIB =	@RANLIB@
 DEFS =		@DEFS@
 LIBS =		@LIBS@
 INCLUDES =	-I. -I$(srcdir)
-dwfpic =        @dwfpic@
-CFLAGS =	$(PREINCS) @CFLAGS@ $(INCLUDES) $(dwfpic) $(POSTINCS)
+CFLAGS =	$(PREINCS) @CFLAGS@ $(INCLUDES) $(POSTINCS)
 LDFLAGS =	$(PRELIBS) @LDFLAGS@ $(POSTLIBS)
 
 basic:
